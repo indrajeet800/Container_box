@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multiple Containers Example</title>
+<script>
+
+
+  const isEqualTo100 = (a, b) => a === 100 || b === 100;
+
+  // Example 1
+ console.log(isEqualTo100(100, 0)); // Output: true
+  // Explanation: In this case, the first argument 'a' is equal to 100, so the function returns true.
+
+  // Example 2
+   console.log(isEqualTo100(50, 100)); // Output: true
+  // Explanation: In this case, the second argument 'b' is equal to 100, so the function returns true.
+
+  // Example 3
+  console.log(isEqualTo100(50, 50)); // Output: false
+  // Explanation: In this case, neither 'a' nor 'b' is equal to 100, so the function returns false.
+
+   
+   
+    
+    
+</script>
+<style>
+    /* CSS for container */
+    .container1 {
+        width: 50%; /* You can adjust the width as per your requirement */
+        margin: 20px auto; /* Center align the container and add some space between containers */
+        padding: 20px; /* Add some padding for content */
+        background-color: #f0f0f0; /* Background color for container */
+        border: 1px solid #ccc; /* Border for container */
+        border-radius: 8px; /* Border radius to make it rounded */
+        background-color: red;
+    }
+
+    .container2 {
+      width: 50%; /* You can adjust the width as per your requirement */
+      margin: 20px auto; /* Center align the container and add some space between containers */
+      padding: 20px; /* Add some padding for content */
+      background-color: #f0f0f0; /* Background color for container */
+      border: 1px solid #ccc; /* Border for container */
+      border-radius: 8px; /* Border radius to make it rounded */
+      background-color:blue;
+  }
+  .container3 {
+    width: 50%; /* You can adjust the width as per your requirement */
+    margin: 20px auto; /* Center align the container and add some space between containers */
+    padding: 20px; /* Add some padding for content */
+    background-color: #ff2020; /* Background color for container */
+    border: 1px solid #ccc; /* Border for container */
+    border-radius: 8px; /* Border radius to make it rounded */
+    background-color:yellow;
+    display:block;
+    direction: inherit;
+}
+</style>
+
+</head>
+<body>
+
+
+<div class="container1">
+    <!-- Content goes here -->
+    <h2>This is container 1</h2>
+    <p>This is the first container.</p>
+</div>
+
+<div class="container2">
+    <!-- Content goes here -->
+    <h2>This is container 2</h2>
+    <p>This is the second container.</p>
+</div>
+
+<div class="container3">
+    <!-- Content goes here -->
+    <h2>This is container 3</h2>
+    <p>This is the third container.</p>
+</div>
+
+
+
+</body>
+</html>
